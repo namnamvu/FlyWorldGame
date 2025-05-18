@@ -1,10 +1,8 @@
-FlyHome - Java Desktop Game
+# **FlyHome** - Java Desktop Game
+
 FlyHome is a simple yet engaging maze navigation game built using Java's Swing and AWT libraries. The player controls a fly, navigating through a grid-based maze while avoiding predators and aiming to reach the home tile safely.
 
-📁 Project Structure
-graphql
-Copy
-Edit
+## 📁 Project Structure
 FlyHome/
 ├── bin/                # Compiled .class files
 ├── img/                # Game images
@@ -14,30 +12,26 @@ FlyHome/
 │   └── FlyWorld.java           # Game logic
 ├── manifest.MF         # Manifest file for .jar packaging
 └── FlyHome.app         # macOS application bundle (if packaged)
-🚀 Features
-Grid-based maze gameplay
 
-Arrow key controls for intuitive navigation
+## 🚀 Features
 
-Visual feedback for success (reaching home) and failure (being eaten)
+- Grid-based maze gameplay  
+- Arrow key controls for intuitive navigation  
+- Visual feedback for success (reaching home) and failure (being eaten)  
+- Lightweight and responsive Swing-based UI  
+- Self-contained macOS app packaging using `jpackage`  
 
-Lightweight and responsive Swing-based UI
+## 🛠️ Technologies Used
 
-Self-contained macOS app packaging using jpackage
+- **Languages**: Java  
+- **Libraries/Frameworks**: Swing, AWT, Java I/O, Java ImageIO  
+- **Tools**: jpackage, BufferedImage  
 
-🛠️ Technologies Used
-Languages: Java
+## 📦 Packaging and Deployment
 
-Libraries/Frameworks: Swing, AWT, Java I/O, Java ImageIO
+To package FlyHome into a macOS app, use the `jpackage` tool:
 
-Tools: jpackage, BufferedImage
-
-📦 Packaging and Deployment
-To package FlyHome into a macOS app, use the jpackage tool:
-
-bash
-Copy
-Edit
+```bash
 jpackage \
   --name FlyHome \
   --input bin \
@@ -45,21 +39,18 @@ jpackage \
   --main-jar FlyHome.jar \
   --icon img/AppIcon.icns \
   --output .
-Make sure your FlyHome.jar file is correctly created and the icon file AppIcon.icns is in the img/ directory.
 
-🕹️ Running the Game
-Run from packaged macOS app:
-Double-click the FlyHome.app file or run in terminal:
+## 🕹️ Running the Game
 
-bash
-Copy
-Edit
+**Run from packaged macOS app:**  
+Double-click the `FlyHome.app` file or run in terminal:
+
+```bash
 open ./FlyHome.app
 Or run from command line (if you want to test the jar directly):
-bash
-Copy
-Edit
-java -jar FlyHome.jar
+
+📧 Contact
+For questions or collaboration, feel free to reach out via email or GitHub.
 
 📧 Contact
 For questions or collaboration, feel free to reach out via email or GitHub.
