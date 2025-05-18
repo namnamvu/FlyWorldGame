@@ -1,0 +1,8 @@
+1. Make checkFile method return a scan and put it as a parameter of assignValueToWorld
+2. Use predator array instead of frog and spider array
+3. Use count to keep track of the index of predator in the array
+4. Combine some condition of if statement by operator &&
+5. In Fly.java stop checking isValid and use FlyWorldGUI.NORTH, ......
+6. Update GridLocation to have setPredator, removePredator, paint Predator
+7. Fix generateLegalmove of spider
+8. Use 1 update in Predator class but different legalMove of different predator
