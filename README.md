@@ -3,6 +3,7 @@
 FlyHome is a simple yet engaging maze navigation game built using Java's Swing and AWT libraries. The player controls a fly, navigating through a grid-based maze while avoiding predators and aiming to reach the home tile safely.
 
 ## 📁 Project Structure
+```
 FlyHome/
 ├── bin/                # Compiled .class files
 ├── img/                # Game images
@@ -12,6 +13,7 @@ FlyHome/
 │   └── FlyWorld.java           # Game logic
 ├── manifest.MF         # Manifest file for .jar packaging
 └── FlyHome.app         # macOS application bundle (if packaged)
+```
 
 ## 🚀 Features
 
