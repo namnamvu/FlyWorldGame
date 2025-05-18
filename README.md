@@ -39,18 +39,20 @@ jpackage \
   --main-jar FlyHome.jar \
   --icon img/AppIcon.icns \
   --output .
+```
+:
 
 ## 🕹️ Running the Game
 
-**Run from packaged macOS app:**  
-Double-click the `FlyHome.app` file or run in terminal:
-
+Run from packaged macOS app:
+Double-click the FlyHome.app file or run in terminal:
 ```bash
 open ./FlyHome.app
+```
 Or run from command line (if you want to test the jar directly):
-
-📧 Contact
+```bash
+java -jar FlyHome.jar
+```
+## 📧 Contact
 For questions or collaboration, feel free to reach out via email or GitHub.
 
-📧 Contact
-For questions or collaboration, feel free to reach out via email or GitHub.
